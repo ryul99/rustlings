@@ -8,7 +8,7 @@
 // No hints this time!
 
 fn string_slice(arg: &str) {
-    println!("{}", arg);
+    println!("{}", arg.to_string());
 }
 fn string(arg: String) {
     println!("{}", arg);
